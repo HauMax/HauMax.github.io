@@ -1,6 +1,5 @@
-import { initializeApp } from "https://gstatic.com";
-import { getAnalytics } from "https://gstatic.com";
-
+import { initializeApp } from "firebase/app";
+import { getAnalytics } from "firebase/analytics";
 // Вставьте сюда ваш объект firebaseConfig:
 const firebaseConfig = {
   apiKey: "AIzaSyB4rROTMduYpKH1ZP8hv0jrzGzY7NEPXRg",
